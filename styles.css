@@ -39,6 +39,7 @@ body {
 
 section {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .link {
@@ -201,7 +202,7 @@ section {
   right: 0px;
 }
 
-.feature-1-container {
+.feature-section-container {
   display: flex;
   gap: 30px;
 }
@@ -254,6 +255,29 @@ section {
 
 .feature-icon {
   margin-bottom: 14px;
+}
+
+.feature-button {
+  min-width: 150px;
+  height: 24px;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #111b47;
+  border: none;
+  border-radius: 2px;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+.feature-button:hover {
+  color: #111b47;
+  background-color: #ffffff;
+}
+
+.section-art-container {
+  min-width: 620px;
 }
 
 /* 
